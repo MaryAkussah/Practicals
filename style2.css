@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+   
+        font-family: "sans-serif";
+        background-color: rgb(69, 70, 8) ;
+        color: rgb(193, 214, 211);
+        background-color: #cccccc;
+
+    }
+    .background {
+      width: 50px;
+      height: 20px;
+    }
+    
+    .background::after {
+      content: "GET STARTED!!!";
+      position: absolute;
+      top: 200px;
+      white-space: pre;
+      right: 50%;
+      transform: translateX(50%);
+      font-weight: bold;
+      font-size: 30px;
+      background-color: black;
+    }
+    footer{
+        text-align: center;
+  padding: 3px;
+  background-color: rgb(172, 152, 146);
+  color: white;
+  margin-top: 555px;
+  position: fixed;
+    }
+    
+/*table{
+
+    align-self: center;
+    margin-left: 150px;
+    margin-top: 100px 
+}
+
+.label{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.input{
+    height: 30px;
+    width: 250px;
+}*/
+/*ul{
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+width: 20%;
+background-color: rgb(63, 26, 26);
+height: 100%; 
+position: fixed; 
+overflow: auto; 
+}
+li a {
+    display: block ;
+    color: rosybrown;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: aliceblue;
+    color: black;
+}*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100vw;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #835353;
+  }
+  #bod{
+    width: 170px;
+  }
+  .logo
+  {
+    width: 50px;
+    height:45px ;
+  }
+ body.button:hover{
+  background-color: aliceblue;
+ }
+  
+.head{
+    margin-left: 300px ;
+    color: rgb(224, 231, 221);
+}
+.MIDDLE{
+    margin-left: 300px;
+    color: rgb(208, 212, 210);
+}
+.design{
+    background-color: rgb(255, 127, 138);
+
+} 
